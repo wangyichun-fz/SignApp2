@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentInfo">
+
+    <Spinner
+        android:id="@+id/sp_class"
+        android:layout_width="386dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/stulist1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="8dp"
+        android:text="     请选择班级:"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/sp_class"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/stulist1"
+        android:layout_width="396dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="34dp"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_save" />
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="142dp"
+        android:text="保存"
+        android:textSize="30dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/stulist1"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

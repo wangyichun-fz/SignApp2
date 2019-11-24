@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_height="220dp">
+
+
+        <ImageView
+            android:id="@+id/photo_item3"
+            android:layout_width="14dp"
+            android:layout_height="209dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="学号:"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/id_item3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="姓名:"/>
+                <TextView
+                    android:id="@+id/name_item3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="30dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="班级:"/>
+                <TextView
+                    android:id="@+id/class_item3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:entries="@array/状态"
+                    android:layout_height="30dp"
+
+                    />
+            </LinearLayout>
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/bu_chuqin"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="出勤"
+                    android:textSize="12dp"
+                    android:checked="true"/>
+                <RadioButton
+                    android:id="@+id/bu_taoke"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"
+                    android:text="逃课"/>
+                <RadioButton
+                    android:id="@+id/bu_qingjia"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"
+                    android:text="请假"/>
+                <RadioButton
+                    android:id="@+id/bu_zaotui"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"
+                    android:text="早退"/>
+                <RadioButton
+                    android:id="@+id/bu_chidao"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content"
+                    android:text="迟到"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

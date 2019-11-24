@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">课堂考勤小助手</string>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="减1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="减2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="减3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="减4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="加">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="状态">
+        <item>出勤</item>
+        <item>逃课</item>
+        <item>早退</item>
+        <item>迟到</item>
+        <item>请假</item>
+    </string-array>
+    <string name="database_name_info">student</string>
+
+</resources>

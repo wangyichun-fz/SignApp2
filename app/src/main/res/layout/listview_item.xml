@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="250dp">
+
+
+        <ImageView
+            android:id="@+id/photo_item"
+            android:layout_width="25dp"
+            android:layout_height="183dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="2"
+            android:paddingLeft="10dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="学号："
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/id_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="姓名："/>
+                <TextView
+                    android:id="@+id/name_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="性别："/>
+                <TextView
+                    android:id="@+id/sex_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="班级："/>
+                <TextView
+                    android:id="@+id/class_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_modify"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="修改" />
+
+                <Button
+                    android:id="@+id/button_del"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="删除" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

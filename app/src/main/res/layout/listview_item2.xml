@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="350dp">
+
+
+        <ImageView
+            android:id="@+id/photo_item2"
+            android:layout_width="27dp"
+            android:layout_height="188dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="2"
+            android:paddingLeft="10dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="学号："
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:id="@+id/id_item2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="姓名："/>
+                <TextView
+                    android:id="@+id/name_item2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="加分次数:"/>
+                <TextView
+                    android:id="@+id/add_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="逃课次数"/>
+                <TextView
+                    android:id="@+id/taoke_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="早退次数"/>
+                <TextView
+                    android:id="@+id/zaotui_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="迟到次数"/>
+                <TextView
+                    android:id="@+id/chidao_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="请假次数"/>
+                <TextView
+                    android:id="@+id/qingjia_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="总成绩:"/>
+                <TextView
+                    android:id="@+id/score_item"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
